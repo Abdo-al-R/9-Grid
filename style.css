@@ -1,0 +1,95 @@
+
+*{
+    background-color: black;
+    text-decoration: solid;
+    font-size: 45px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.child {
+
+    border: solid 2px rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container { 
+    height: 1100px;
+    
+    
+    
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1.3fr 3fr 2.5fr 1.7fr 2fr 1.3fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "My-Header  My-Header  My-Header"
+      "My-Image   My-Image   My-Image"
+      "Main       Main       Side"
+      "Banner     Banner     Side"
+      "Image      Ad         Side"
+      "Footer     Footer     Footer";
+  }
+  
+  .My-Header { 
+    background-image: url("wp.jpg");
+    background-position: 150px;
+    background-color: rgb(51, 201, 201);
+    color: black ;
+    grid-area: My-Header; }
+  
+  .My-Image { 
+    color: rgb(217, 255, 0);
+    background-image: url("cv.jpg");
+    background-attachment: fixed;
+    grid-area: My-Image; }
+  
+  .Main { 
+    background-image: url("moon.jpg");
+    grid-area: Main; }
+  
+  .Side { 
+    color: rgb(119, 4, 39);
+    background-image: url("bn.jpg");
+    background-position: 400px;
+    grid-area: Side; }
+  
+  .Banner { 
+    background-image: url("banner.jpg");
+    color: rgb(79, 76, 253);
+    grid-area: Banner; }
+  
+  .Image { 
+    color: rgb(0, 255, 64);
+    background-image: url("134.jpg");
+      grid-area: Image; }
+  
+  .Ad { 
+    background-image: url("wall.jpg");
+    background-attachment: fixed;
+    color: aqua;
+    
+    grid-area: Ad; }
+  
+  .Footer { 
+    background-image: url("wall.jpg");
+    background-attachment: fixed;
+    grid-area: Footer;
+ }
+  

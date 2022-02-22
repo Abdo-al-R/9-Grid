@@ -1,5 +1,6 @@
 
 *{
+ 
     background-color: black;
     text-decoration: solid;
     font-size: 45px;
@@ -27,7 +28,7 @@
 
 
 .container { 
-    height: 1100px;
+    height: 1200px;
     
     
     
@@ -48,7 +49,7 @@
   }
   
   .My-Header { 
-    background-image: url("wp.jpg");
+    background-image: url("img/wp.jpg");
     background-position: 150px;
     background-color: rgb(51, 201, 201);
     color: black ;
@@ -56,39 +57,43 @@
   
   .My-Image { 
     color: rgb(217, 255, 0);
-    background-image: url("cv.jpg");
+    background-image: url("img/cv.jpg");
     background-attachment: fixed;
     grid-area: My-Image; }
   
   .Main { 
-    background-image: url("moon.jpg");
+    color: rgb(255, 255, 255);
+    background-image: url("img/moon.jpg");
+    background-position: 1200px 400PX;
     grid-area: Main; }
   
   .Side { 
     color: rgb(119, 4, 39);
-    background-image: url("bn.jpg");
+    background-image: url("img/bn.jpg");
     background-position: 400px;
     grid-area: Side; }
   
   .Banner { 
-    background-image: url("banner.jpg");
+    background-image: url("img/banner.jpg");
     color: rgb(79, 76, 253);
     grid-area: Banner; }
   
   .Image { 
     color: rgb(0, 255, 64);
-    background-image: url("134.jpg");
+    
+    background-position: 550px;
+    background-image: url("img/134.jpg");
       grid-area: Image; }
   
   .Ad { 
-    background-image: url("wall.jpg");
+    background-image: url("img/wall.jpg");
     background-attachment: fixed;
     color: aqua;
     
     grid-area: Ad; }
   
   .Footer { 
-    background-image: url("wall.jpg");
+    background-image: url("img/wall.jpg");
     background-attachment: fixed;
     grid-area: Footer;
  }
